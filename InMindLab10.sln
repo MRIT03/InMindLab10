@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMindLab10", "InMindLab10\InMindLab10.csproj", "{C5F551D9-DBAC-425B-99AD-6CC80E6F0888}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMindLab10.Tests", "InMindLab10.Tests\InMindLab10.Tests.csproj", "{B8DF2DA2-DC46-481F-A2F7-EBD6414B7B7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F551D9-DBAC-425B-99AD-6CC80E6F0888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5F551D9-DBAC-425B-99AD-6CC80E6F0888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5F551D9-DBAC-425B-99AD-6CC80E6F0888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5F551D9-DBAC-425B-99AD-6CC80E6F0888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8DF2DA2-DC46-481F-A2F7-EBD6414B7B7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8DF2DA2-DC46-481F-A2F7-EBD6414B7B7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8DF2DA2-DC46-481F-A2F7-EBD6414B7B7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8DF2DA2-DC46-481F-A2F7-EBD6414B7B7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
