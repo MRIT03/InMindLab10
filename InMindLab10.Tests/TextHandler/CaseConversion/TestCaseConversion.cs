@@ -32,4 +32,17 @@ public class TestCaseConversion
         Assert.Equal("helloWorld", InMindLab10.TextFormatter.ToCamelCase("hello world"));
         Assert.Equal("myTextExample", InMindLab10.TextFormatter.ToCamelCase("my_text-example"));
     }
+    [Fact]
+    public void TestKebabToSnake()
+    {
+        // Arrange
+        string kebab = "my-kebab-case";
+        string expected = "my_kebab_case";
+
+        // Act
+        string result = InMindLab10.TextFormatter.KebabToSnake(kebab);
+
+        // Assert
+        Assert.Equal(expected, result);
+    }
 }

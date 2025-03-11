@@ -99,6 +99,13 @@ namespace InMindLab10
                 return pascal;
             return char.ToLower(pascal[0]) + pascal.Substring(1);
         }
+        public static string KebabToSnake(string input)
+        {
+            if (string.IsNullOrEmpty(input))
+                return input;
+            // Since kebab-case uses '-' as word separators, we simply replace them with '_'
+            return input.Replace('-', '_');
+        }
     }
 
     
@@ -172,5 +179,8 @@ namespace InMindLab10
            
             return frequency.OrderBy(kv => kv.Value).First().Key;
         }
+        
+        
+       
     }
 }
